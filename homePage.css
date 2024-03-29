@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Alegreya";
+    src: url(https://fonts.google.com/selection?query=Alegreya);
+}
+body{
+    font-family: "Alegreya";
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+h2{
+    margin: 0px;
+}
+/* CSS DA BARRA DE NAVECAÇÃO */
+.barra-navegacao {
+    height: 10vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon-container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon1{
+    width: 40px;
+    height: 40px;
+}
+.icon-container2{
+
+}
+.icon2{
+    margin: 0 1vw;
+}
+
+.main{
+
+}
