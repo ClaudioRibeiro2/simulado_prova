@@ -8,34 +8,38 @@ body{
     margin: 0px;
     border: 0px;
 }
-h2{
-    margin: 0px;
-}
-/* CSS DA BARRA DE NAVECAÇÃO */
-.barra-navegacao {
-    height: 10vh;
+/* CABEÇALHO */
+.cabecalho {
+    display: flex;
+    padding: 8px 0;
     background-color: bisque;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
 }
-.icon-container1{
+
+.div-cabecalho1{
+    flex: 1 1 auto;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    gap: 8px;
+    margin-left: 50px;
 }
-.icon1{
-    width: 40px;
+.icone1{
     height: 40px;
 }
-.icon-container2{
 
+.div-cabecalho2{
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-right: 50px;
 }
-.icon2{
-    margin: 0 1vw;
+.icone2{
+    height: 25px;
+    width: 25px;
 }
 
+/* Conteudo */
 .main{
 
 }
